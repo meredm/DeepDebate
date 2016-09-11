@@ -1,0 +1,26 @@
+<div class="form" align=center>
+<div class="form-group">
+	<input [(ngModel)]="text" placeholder="Ask a question..." type="text" class="form-control" id="question">
+</div>
+<div class="form-group">
+	<label for="to"> To:</label>
+	<select [(ngModel)]="politician" class="form-control" id="to">
+		<option selected>Donald Trump</option>
+		<option>Hillary Clinton</option>
+	</select>
+</div>
+<button type="submit" class="btn btn-default">Ask!</button>
+</div>
+
+<div id="container">
+
+<div id="image" style="display: inline;">
+<div class="texts">
+	{{output}}
+</div>
+<img align="right" *ngIf="check()" src="http://chicagocrusader.com/wp-content/uploads/2016/08/Hillary-Clinton-Profile-Photo.jpg" alt="Hillary Clinton">
+
+<img *ngIf="!check()" align="right" src="https://pbs.twimg.com/profile_images/1980294624/DJT_Headshot_V2.jpg" alt="Donald Trump">
+</div>
+
+</div>

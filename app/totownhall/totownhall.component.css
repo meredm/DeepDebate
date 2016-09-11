@@ -1,0 +1,8 @@
+.bg {
+	background: url('http://www.slate.com/content/dam/slate/articles/news_and_politics/politics/2016/03/160311_POL_Hillary-trump.jpg.CROP.promo-xlarge2.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+    height: 750px;  
+    width: 1500px;
+}

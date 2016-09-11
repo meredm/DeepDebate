@@ -1,0 +1,43 @@
+input {
+	width:40%;
+}
+
+select {
+	width:20%;
+	display: inline-block;	
+}
+
+.form {
+	padding: 5%;
+}
+
+label {
+	color: black;
+	font-size: 32px;
+	display: inline-block;	
+	vertical-align: middle;
+}
+
+button {
+	font-size: 32px;
+}
+
+img {
+	width:21%;
+	margin: 5%;
+	margin-right: 10%;
+	margin-top:0%;
+}
+
+.texts {
+	color: white;
+	padding:5%;
+	padding-left: 10%;
+	width: 950px;
+	float: left;
+	background-color: rgba(0,0,0,.7);
+}
+
+.container {
+	background-color: rgba(0,0,0,.3);
+}
